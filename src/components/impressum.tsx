@@ -7,6 +7,8 @@ export default function Impressum() {
       <p className="mb-4">
         Erdmann Kunze
         <br />
+        Zweiradmechaniker im Reisegewerbe
+        <br />
         Calviusstraße 27
         <br />
         04177 Leipzig
