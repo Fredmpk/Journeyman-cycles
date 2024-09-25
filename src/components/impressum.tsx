@@ -15,13 +15,7 @@ export default function Impressum() {
         <br />
         Tel.: 015734766303
         <br />
-        E-Mail:{" "}
-        <a
-          href="mailto:info@journeymancycles.de"
-          className="text-blue-600 hover:underline"
-        >
-          info@journeymancycles.de
-        </a>
+        info@journeymancycles.de
       </p>
     </div>
   );
