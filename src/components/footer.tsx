@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"; // Import Link for navigation
 
 export function Footer() {
   return (
-    <footer className="fixed bottom-0 w-full flex flex-col sm:flex-row bg-black align-center items-center justify-between py-4 px-6 text-white font-sm sm:font-base font-bold gap-4 sm:gap-0">
-      <ul className="flex gap-4">
+    <footer className="fixed bottom-0 w-full flex flex-col sm:flex-row bg-black align-center items-center justify-between py-4 px-[8vw] text-white font-sm sm:font-base font-bold gap-4 sm:gap-0">
+      {/* <ul className="flex gap-4">
         <li>
           <Link to="/impressum" className="hover:underline">
             Impressum
@@ -15,7 +15,12 @@ export function Footer() {
             Datenschutz
           </Link>
         </li>
-      </ul>
+      </ul> */}
+      <div>
+        <Link to="/impressum" className="hover:underline">
+          Impressum
+        </Link>
+      </div>
       <ul className="flex gap-4">
         <li>
           <a
@@ -28,6 +33,11 @@ export function Footer() {
           </a>
         </li>
       </ul>
+      <div>
+        <Link to="/datenschutz" className="hover:underline">
+          Datenschutz
+        </Link>
+      </div>
       {/* <div className="mail flex items-center">
         <FaEnvelope className="mr-2" />
         <a
